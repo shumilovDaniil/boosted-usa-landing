@@ -1,0 +1,16 @@
+.videos__inner {
+    padding: 120px 0 64px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.videos__inner iframe + iframe {
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .videos__inner iframe + iframe {
+        margin: 20px 0 0 0;
+    }
+}

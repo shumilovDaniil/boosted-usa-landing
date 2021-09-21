@@ -1,0 +1,45 @@
+.hero {
+    background: url(../../img/hero_bg.jpg) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    min-height: 811px;
+    text-align: center;
+}
+
+.hero__wrapper {
+    padding-top: 53px;
+}
+
+.hero h1 {
+    font-size: 44px;
+    line-height: 1.1590;
+    padding-bottom: 14px;
+}
+
+.hero strong {
+    display: inline-block;
+    font-size: 15px;
+    line-height: 1.2666;
+    letter-spacing: 1px;
+    padding-bottom: 22px;
+}
+
+.hero__btn + .hero__btn {
+    margin-left: 12px;
+}
+
+@media screen and (max-width: 768px) {
+    .hero__btn + .hero__btn {
+        margin-left: 0;
+    }
+
+    .hero__btns {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .hero__btn + .hero__btn {
+        margin-top: 10px;
+    }
+}

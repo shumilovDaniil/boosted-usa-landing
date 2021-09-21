@@ -1,0 +1,22 @@
+.footer__bottom {
+    font-size: 13px;
+    line-height: 1.46153;
+}
+
+.footer__bottom__wrapper p {
+    padding-right: 10px;
+}
+
+.footer__bottom .link-orange {
+    color: #FF4A32;
+}
+
+.footer__bottom .pay__method + .pay__method {
+    margin-left: 1px;
+}
+
+@media screen and (max-width: 768px) {
+    .footer__bottom__wrapper p {
+        padding-bottom: 10px;
+    }
+}

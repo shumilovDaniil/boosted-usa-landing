@@ -1,0 +1,39 @@
+.bg-offer {
+    background: url(../../img/bg_offer_background.jpg) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    min-height: 736px;
+    text-align: center;
+}
+
+.bg-offer__wrapper {
+    padding-top: 44px;
+}
+
+.bg-offer strong {
+    display: inline-block;
+    font-size: 15px;
+    line-height: 1.26666;
+    letter-spacing: 1px;
+    margin-bottom: 11px;
+}
+
+.bg-offer h2 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 1.13333;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.bg-offer__text {
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 1px;
+    max-width: 488px;
+    margin: 0 auto 20px auto;
+}
+
+.bg-offer__btn {
+    text-transform: inherit;
+}
