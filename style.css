@@ -1,0 +1,18 @@
+@import url('src/css/normalize.css');
+@import url('src/css/reset.css');
+@import url('src/css/base.css');
+
+/* COMPONENTS ==================================== */
+
+@import url('src/css/components/header.css');
+@import url('src/css/components/hero.css');
+@import url('src/css/components/companies.css');
+@import url('src/css/components/offer.css');
+@import url('src/css/components/bg-offer.css');
+@import url('src/css/components/boosted-offer.css');
+@import url('src/css/components/shop.css');
+@import url('src/css/components/videos.css');
+@import url('src/css/components/accessories.css');
+@import url('src/css/components/features.css');
+@import url('src/css/components/footer.css');
+@import url('src/css/components/footer-bottom.css');
